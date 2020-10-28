@@ -1,0 +1,66 @@
+<DOCTYPE !html>
+<html>
+    <head>
+        <title>Registration form</title>
+    </head>
+    <body>
+        <h1>
+            Registration Form
+        </h1>
+        <form>
+                 <input type="text" placeholder="Your Name" /><br/><br/>
+                <textarea rows="5" cols="25" placeholder="Address"></textarea><br/><br/>
+                Gender:
+                Male: <input type="radio" value="male" name="gender"/>
+                Female: <input type="radio" value="female" name="gender"/>
+                Others: <input type="radio" value="others" name="gender"/></br></br>
+                Date of Birth:<input type="date" min="2000-01-01"/></br></br>
+                Age: <input type="number"placeholder="your age"  /></br></br>             
+                <input type="text" placeholder="Fathers Name" /><br/><br/>
+                <input type="text" placeholder="Phone.No" /></br></br>
+                Educational Qualification:
+                SSLC:<input type="radio" value="ssslc" name="education"/>
+                plusTwo:<input type="radio" value="plustwo" name="education"/>
+                Degree:<input type="radio" value="degree" name="education"/></br></br>
+                <input type="email" placeholder="Your email address"/></br></br>
+
+                Languages Known:
+                Malayalam:<input type="checkbox" value="mal" checked/>
+                English:<input type="checkbox" value="eng" />
+                Hindi:<input type="checkbox" value="hin" /></br></br>
+
+
+                state:
+                <select required>
+                    <option>Kerala</option>
+                    <option>Karnataka</option>                 
+                    <option>Tamilanadu</option>
+                    <option>Andhrapradesh</option>
+                    <option>Goa</option>
+                    <option>Maharashtra</option>
+                </select></br></br>
+               District:
+               <input type="text" list="districts"/>
+               <datalist id="districts">
+               <option value="kasargod"/>                  
+               <option value="kannur"/> 
+               <option value="wayanad"/>                    
+               <option value="kozhikkod"/>                                                   
+               <option value="malappuram"/> 
+               <option value="palakkad"/>
+               <option value="Thrissur"/>
+               <option value="Alappuzha"/>
+               <option value="Idukki"/>
+               <option value="Kottayam"/>
+               <option value="Ernakulam"/>
+               <option value="Paththanamthitta"/>
+               <option value="Kollam"/>
+               <option value="Trivandrum"/></br></br>
+               </datalist></br></br>
+               <button type="reset"><i>Clear me</i></button>
+               <input type="submit" value="Register">
+                                      
+                
+        </form>
+    </body>
+</html>
